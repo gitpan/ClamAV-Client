@@ -3,7 +3,7 @@
 # a client class for the ClamAV clamd virus scanner daemon.
 #
 # (C) 2004-2005 Julian Mehnle <julian@mehnle.net>
-# $Id: Client.pm,v 1.5 2005/01/11 23:25:49 julian Exp $
+# $Id: Client.pm,v 1.6 2005/01/21 22:50:14 julian Exp $
 #
 ##############################################################################
 
@@ -17,11 +17,11 @@ package ClamAV::Client;
 
 =head1 VERSION
 
-0.10
+0.11
 
 =cut
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: ClamAV-Client
-version: 0.10
+version: 0.11
 author:
   - Julian Mehnle <julian@mehnle.net>
 abstract: |-
@@ -16,14 +16,14 @@ requires:
 provides:
   ClamAV::Client:
     file: lib/ClamAV/Client.pm
-    version: 0.10
+    version: 0.11
   ClamAV::Client::Error:
     file: lib/ClamAV/Client.pm
-    version: 0.10
+    version: 0.11
   ClamAV::Config:
     file: lib/ClamAV/Config.pm
-    version: 0.1
+    version: 0.11
   ClamAV::Config::Error:
     file: lib/ClamAV/Config.pm
-    version: 0.1
+    version: 0.11
 generated_by: Module::Build version 0.26

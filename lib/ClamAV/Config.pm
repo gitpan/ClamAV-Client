@@ -2,7 +2,7 @@
 # ClamAV::Config class
 #
 # (C) 2004-2005 Julian Mehnle <julian@mehnle.net>
-# $Id: Config.pm,v 1.2 2005/01/11 23:26:05 julian Exp $
+# $Id: Config.pm,v 1.3 2005/01/21 22:50:14 julian Exp $
 #
 ##############################################################################
 
@@ -17,11 +17,11 @@ package ClamAV::Config;
 
 =head1 VERSION
 
-0.10
+0.11
 
 =cut
 
-our $VERSION = 0.10;
+our $VERSION = 0.11;
 
 =head1 SYNOPSIS
 
