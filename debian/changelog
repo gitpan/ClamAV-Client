@@ -1,0 +1,6 @@
+libclamav-client-perl (0.10) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Julian Mehnle <julian@mehnle.net>  Wed, 12 Jan 2005 00:09:17 +0100
+

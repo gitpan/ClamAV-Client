@@ -1,0 +1,36 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.35.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 76f3be9657be82710f2cae9d58f5152b71adb102 Build.PL
+SHA1 4f1ca0d1c444317f5cc180c7ee3db98ac62c5d7a CHANGES
+SHA1 63843abeb38a417a79b787fa72f7a2691a1ba379 MANIFEST
+SHA1 a82a5199cf15b3cee46a98f3abf997d17d27b3dd META.yml
+SHA1 8cc395835544d18b5183583a4a0abeeb2c00af62 README
+SHA1 20c2a16b5c5da26818a364498dc6a772ec13ae55 TODO
+SHA1 24421d25c04083425236c64a15affb9b744300fa debian/changelog
+SHA1 9c6b057a2b9d96a4067a749ee3b3b0158d390cf1 debian/compat
+SHA1 391b86693b32d690640df233f06a52047c35a3a3 debian/control
+SHA1 eed1708e61860d30832153f4b48fbef4eedecb0e debian/copyright
+SHA1 f07d3cc654d62025ba37a53a83db9cf3aa21fede debian/rules
+SHA1 04584402073586970386919614236b11e1abb97d lib/ClamAV/Client.pm
+SHA1 311c709e044d768d966839320853cb4ffdfe564e lib/ClamAV/Config.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFB5GCqaWlsL2XXXh8RAqnLAJwLzA0tT45ilibHsMSO2TfYsnxLMwCfWStW
+ciF6c2ZsipbAWtc+KB96KtU=
+=Nxst
+-----END PGP SIGNATURE-----
